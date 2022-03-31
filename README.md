@@ -1,5 +1,5 @@
 # Mealdb website with React Router
-[Live website Link:](https://mealdb-restaurant-react-router-devtabibur.netlify.app/restaurants)
+[Live website Link:](https://mealdb-restaurant-react-router-devtabibur.netlify.app/)
 
 **Technologies**
 1. React-dom
