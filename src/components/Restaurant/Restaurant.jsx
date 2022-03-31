@@ -48,7 +48,7 @@ const Restaurant = () => {
       </div>
 
       <div className="container pb-5 pt-2">
-        <div className="row text-center mx-auto">
+        <div className="row">
           {meals.map((meal) => (
             <Meals key={meal.idMeal} meal={meal} />
           ))}

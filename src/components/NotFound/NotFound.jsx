@@ -10,8 +10,8 @@ const NotFound = () => {
       <div className="row">
         <div className="col-md-6 order-2">
           <div className="inner-section d-flex align-items-center justify-content-center">
-            <Link to="/" className=" mb-0">Go Back to Home</Link>
-            <Link to="/contact" className="mt-0">Contact Us</Link>
+            <Link to="/" className="link mb-0">Go Back to Home</Link>
+            <Link to="/contact" className=" link mt-0">Contact Us</Link>
           </div>
         </div>
 
