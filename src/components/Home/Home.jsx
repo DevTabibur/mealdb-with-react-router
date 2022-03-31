@@ -10,8 +10,8 @@ const Home = () => {
                 <div className="col-md-4"></div>
                 <div className="col-md-4 text-center py-5 mt-5 mx-auto">
                     <div className="inner-section">
-                    <h2>Welcome to Meal Restaurant</h2>
-                    <Link to="/restaurants">Explore Meals</Link>
+                    <h2 className='welcome'>Welcome to Meal Restaurant</h2>
+                    <Link className='link3' to="/restaurants">Explore Meals</Link>
                     </div>
                 </div>
                 <div className="col-md-4"></div>
