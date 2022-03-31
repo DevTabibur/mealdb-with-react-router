@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route, Link } from "react-router-dom";
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import MealDetails from './components/MealDetails/MealDetails';
@@ -14,6 +15,7 @@ function App() {
         <Route path="/restaurants" element={<Restaurant/>}></Route>
         <Route path="/meal-details/:id" element={<MealDetails/>}></Route>
       </Routes>
+      <Footer/>
 
     </>
   );

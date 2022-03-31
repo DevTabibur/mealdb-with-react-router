@@ -36,7 +36,7 @@ const MealDetails = () => {
           <h5>Country: {mealDetails.strArea}</h5>
           <h5>Main Ingredients: {mealDetails.strTags}</h5>
           <p>
-            <h5>Making Instructions:</h5> {mealDetails.strInstructions.slice(0, 1000)}
+            <h5>Making Instructions:</h5> {mealDetails.strInstructions}
           </p>
         </div>
       </div>
