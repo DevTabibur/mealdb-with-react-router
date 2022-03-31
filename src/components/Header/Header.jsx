@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
@@ -8,10 +8,10 @@ import {
   FormControl,
   Nav,
   Navbar,
-  NavDropdown,
 } from "react-bootstrap";
 
 const Header = () => {
+    
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -28,12 +28,13 @@ const Header = () => {
             <Nav>
               <Form className="d-flex">
                 <FormControl
+                // onChange={searchFood}
                   type="search"
-                  placeholder="Search"
+                  placeholder="Search food"
                   className="me-2"
                   aria-label="Search"
                 />
-                <Button variant="outline-success">Search</Button>
+                <Button variant="outline-success">Food</Button>
               </Form>
             </Nav>
           </Navbar.Collapse>
