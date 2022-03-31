@@ -9,6 +9,7 @@ import {
   Nav,
   Navbar,
 } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     
@@ -20,10 +21,10 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link href="#home">HOME</Nav.Link>
-              <Nav.Link href="#meals">MEALS</Nav.Link>
-              <Nav.Link href="#about">ABOUT</Nav.Link>
-              <Nav.Link href="#contact">CONTACT</Nav.Link>
+              <Link to="/">HOME</Link>
+              <Link to="/meals">MEALS</Link>
+              <Link to="/about">ABOUT</Link>
+              <Link to="/contact">CONTACT</Link>
             </Nav>
             <Nav>
               <Form className="d-flex">
