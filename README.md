@@ -6,3 +6,4 @@
 2. React-router
 3. React-bootstrap
 4. Mealdb-api
+5. Responsive (Mobile+Desktop+Laptop)
