@@ -36,12 +36,9 @@ const Restaurant = () => {
                   onChange={searchFood}
                   type="search"
                   placeholder="Search food"
-                  className="me-2 w-75 mx-auto"
+                  className="me-2 w-100 mx-auto p-3"
                   aria-label="Search"
                 />
-                <Button variant="outline-success" className="w-25 mx-auto">
-                  Search Food
-                </Button>
               </Form>
             </div>
           </div>
@@ -50,14 +47,14 @@ const Restaurant = () => {
         </div>
       </div>
 
-      <div className="container">
-        <div className="row">
+      <div className="container pb-5 pt-2">
+        <div className="row text-center mx-auto">
           {meals.map((meal) => (
             <Meals key={meal.idMeal} meal={meal} />
           ))}
         </div>
       </div>
-      
+
     </>
   );
 };
